@@ -1,5 +1,7 @@
+extern crate core;
+
 mod scanner;
 
 fn main() {
-    println!("Hello, world!");
+
 }

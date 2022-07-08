@@ -1,3 +1,4 @@
+use core::num::flt2dec::strategy::grisu::max_pow10_no_more_than;
 use crate::scanner::token::Token;
 
 mod token;
@@ -12,7 +13,11 @@ pub struct Scanner {
 }
 
 impl Scanner {
-    fn scan_tokens() -> Vec<Token> {
+    fn scan_tokens(&mut self) -> Vec<Token> {
+        match
+    }
 
+    fn next_char(&mut self) -> char {
+        self.source.chars().collect();
     }
 }
